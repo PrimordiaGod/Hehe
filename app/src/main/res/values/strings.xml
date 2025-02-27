@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android Macro App</string>
+    <string name="accessibility_service_description">This service enables the app to perform automated actions on your device. It is required for macro functionality.</string>
+    <string name="start_macro">Start Macro</string>
+    <string name="stop_macro">Stop Macro</string>
+    <string name="record_macro">Record Macro</string>
+    <string name="save_macro">Save Macro</string>
+    <string name="macro_name_hint">Enter macro name</string>
+    <string name="enable_accessibility_service">Enable Accessibility Service</string>
+    <string name="accessibility_service_not_enabled">Accessibility service is not enabled. Please enable it in Settings.</string>
+</resources>
