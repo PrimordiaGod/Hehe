@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MacroMaster</string>
+    <string name="accessibility_service_description">MacroMaster uses accessibility services to detect screen elements and perform automated actions. This service is required for the app to function properly.</string>
+    
+    <!-- Main Activity -->
+    <string name="create_new_macro">Create New Macro</string>
+    <string name="my_macros">My Macros</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    
+    <!-- Macro Editor -->
+    <string name="macro_name">Macro Name</string>
+    <string name="add_action">Add Action</string>
+    <string name="add_condition">Add Condition</string>
+    <string name="save_macro">Save Macro</string>
+    <string name="test_macro">Test Macro</string>
+    
+    <!-- Actions -->
+    <string name="action_click">Click</string>
+    <string name="action_swipe">Swipe</string>
+    <string name="action_wait">Wait</string>
+    <string name="action_text_input">Text Input</string>
+    
+    <!-- Conditions -->
+    <string name="condition_image_match">Image Match</string>
+    <string name="condition_text_match">Text Match</string>
+    <string name="condition_timeout">Timeout</string>
+    
+    <!-- Settings -->
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="enable_overlay">Enable Screen Overlay</string>
+    <string name="image_recognition_settings">Image Recognition Settings</string>
+    <string name="performance_settings">Performance Settings</string>
+    
+    <!-- Permissions -->
+    <string name="permission_rationale">MacroMaster requires several permissions to function properly. Please grant all requested permissions.</string>
+</resources>
