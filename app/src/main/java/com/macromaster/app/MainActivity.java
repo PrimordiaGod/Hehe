@@ -62,18 +62,28 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openMacroList() {
-        // TODO: Implement macro list activity
-        Toast.makeText(this, "My Macros feature coming soon", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, MacroListActivity.class);
+        startActivity(intent);
     }
 
     private void openSettings() {
-        // TODO: Implement settings activity
-        checkPermissions();
+        Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
     }
 
     private void openHelp() {
-        // TODO: Implement help activity
-        Toast.makeText(this, "Help feature coming soon", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, HelpActivity.class);
+        startActivity(intent);
+    }
+
+    private void openAIAssistant() {
+        if (hasRequiredPermissions()) {
+            Intent intent = new Intent(this, AIAssistantActivity.class);
+            startActivity(intent);
+        } else {
+            Toast.makeText(this, "Please grant all required permissions first", Toast.LENGTH_SHORT).show();
+            checkPermissions();
+        }
     }
 
     private boolean hasRequiredPermissions() {

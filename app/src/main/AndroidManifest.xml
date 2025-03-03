@@ -32,6 +32,26 @@
             android:name=".MacroEditorActivity"
             android:exported="false" />
 
+        <!-- AI Assistant Activity -->
+        <activity
+            android:name=".AIAssistantActivity"
+            android:exported="false" />
+
+        <!-- Settings Activity -->
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+
+        <!-- Macro List Activity -->
+        <activity
+            android:name=".MacroListActivity"
+            android:exported="false" />
+
+        <!-- Help Activity -->
+        <activity
+            android:name=".HelpActivity"
+            android:exported="false" />
+
         <!-- Accessibility Service for detecting screen elements and performing actions -->
         <service
             android:name=".services.MacroAccessibilityService"
@@ -44,6 +64,11 @@
                 android:name="android.accessibilityservice"
                 android:resource="@xml/accessibility_service_config" />
         </service>
+
+        <!-- Screen Capture Service -->
+        <service
+            android:name=".services.ScreenCaptureService"
+            android:exported="false" />
 
         <!-- Foreground Service for screen monitoring -->
         <service

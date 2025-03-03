@@ -59,6 +59,16 @@
         app:layout_constraintTop_toBottomOf="@+id/settingsButton"
         app:layout_constraintWidth_percent="0.8" />
 
+    <Button
+        android:id="@+id/aiAssistantButton"
+        style="@style/ActionButton"
+        android:layout_width="0dp"
+        android:text="AI Assistant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpButton"
+        app:layout_constraintWidth_percent="0.8" />
+
     <TextView
         android:id="@+id/permissionStatusTextView"
         android:layout_width="0dp"
